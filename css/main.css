@@ -163,3 +163,50 @@
 @media (max-width: 767.98px) {
   .tf-footer .tf-design {
     text-align: left !important; } }
+
+.blog-article {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+}
+
+/*header h1 {*/
+/*  margin-bottom: 0.2rem;*/
+/*}*/
+
+.meta {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.content p {
+  margin-bottom: 1.2rem;
+}
+
+sup a {
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.footnotes,
+.bibliography {
+  margin-top: 2.5rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1.5rem;
+}
+
+.footnotes ol {
+  padding-left: 1.2rem;
+}
+
+.backlink {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.bibliography ul {
+  list-style-type: square;
+  padding-left: 1.2rem;
+}
