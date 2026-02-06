@@ -220,3 +220,43 @@ sup a {
   content: "– ";
   margin-left: -1.2em;
 }
+
+
+/* Style général du tableau */
+table {
+  border-collapse: collapse;       /* fusionne les bordures */
+  width: 100%;                     /* tableau prend toute la largeur */
+  table-layout: fixed;             /* colonnes fixes pour gérer le contenu long */
+  word-wrap: break-word;           /* découpe le texte long */
+  margin-bottom: 1em;              /* espace sous le tableau */
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.95em;
+}
+
+/* Entêtes de colonnes */
+th {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+/* Cellules */
+td {
+  border: 1px solid #333;
+  padding: 8px;
+  vertical-align: top;            /* texte aligné en haut */
+}
+
+/* Caption (légende) */
+caption {
+  caption-side: bottom;
+  text-align: left;
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+/* Lignes vides visibles mais discrètes */
+td:empty {
+  background-color: #fafafa;
+}
