@@ -262,22 +262,31 @@ td:empty {
 }
 
 .image-rotate {
-  display: inline-block;       /* permet de limiter la largeur à l'image */
-  text-align: center;          /* centre la légende */
-  margin: 1em 0;               /* espace autour de la figure */
+  display: block;
+  margin: 2em auto;
+  text-align: center;
+  overflow: visible;
 }
 
 .image-rotate img {
-  max-width: 50%;              /* réduit la taille de l'image à 50% du conteneur parent */
-  height: auto;                /* conserve les proportions */
-  transform: rotate(-90deg);   /* rotation 90° antihoraire */
-  display: block;              /* supprime l’espace blanc en ligne */
-  margin: 0 auto;              /* centre l'image horizontalement */
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  transform: rotate(-90deg);
+  transform-origin: center;
 }
 
 .image-rotate figcaption {
+  margin-top: 1em;
   font-size: 0.9em;
-  color: #555;
-  margin-top: 0.3em;
   font-style: italic;
+  color: #555;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
 }
